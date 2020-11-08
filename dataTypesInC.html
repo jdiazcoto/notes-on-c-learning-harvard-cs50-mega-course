@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Data Types and Variables for the C language</h1>
+    <ol>
+      <li>int</li>
+      <ul>
+        <li>
+          The int data type is used for variables that will store integers
+        </li>
+        <li>
+          Integers always take up 4 bytes of memory(32 bits). This means the
+          range of values they can store is necessarily limited to 32 bits worth
+          of info
+        </li>
+      </ul>
+      <li>unisgned int</li>
+      <ul>
+        <li>
+          unisgned is a qualifier that can be applied to certain types
+          (including int), which effectively doubles the positive range of
+          variables of that ype, at the cost of disallowing any negative values
+        </li>
+        <li>You'll occasionally have use for unisgned variables</li>
+      </ul>
+      <li>char</li>
+      <ul>
+        <li>
+          The char data type is used for variables that will store single
+          characters.
+        </li>
+        <li>
+          Characters always take up 1 byte of memory(8 bits). This means the
+          range of values they can store is necessarily limited to 8 bits worth
+          of information.
+        </li>
+        <li>
+          Thanks to ASCII,we've developed a mapping of characters like A,B,C,
+          etc... to numeric values in the positiveside of this range
+        </li>
+      </ul>
+      <li>float</li>
+      <ul>
+        <li>
+          The float data type is used for variables that will store
+          floating-point values, also known as real numbers.
+        </li>
+        <li>
+          Floating points values always take up 4 bytes of memory (32 bits)
+        </li>
+        <li>
+          It's a little complicated to describe the range of a float but suffice
+          it to say with 32 bits of precision some of which might be use for an
+          integer part, we are limited in how precise we can be
+        </li>
+      </ul>
+      <li>double</li>
+      <ul>
+        <li>
+          The double data type is used for variables that will store
+          floating-point values, also known as real numbers.
+        </li>
+        <li>
+          The difference is that doubles are double precision. They always take
+          up 8 bytes of memory(64 bits)
+        </li>
+        <li>
+          WIth an additional 32 bits of precision relative to a float, doubles
+          allow us to specify much more precise real numbers
+        </li>
+      </ul>
+      <li>void</li>
+      <ul>
+        <li>Is a type, but not a data type.</li>
+        <li>
+          Functions cn have a void return type, which just means they don't
+          return a value
+        </li>
+        <li>
+          The parameter list of function can also be void. It simply means the
+          function takes no parameters.
+        </li>
+        <li>
+          For now, think of void more as a placeholder for "nothing". It's more
+          complex than that, but for now that is alright.
+        </li>
+      </ul>
+    </ol>
+  </body>
+</html>
